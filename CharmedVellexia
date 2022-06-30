@@ -1,7 +1,6 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("Charmed GUI Made By 0BL1V10N", "DarkTheme")
 
-If game.PlaceId == 5594653581 then
     -- Characters
 local Tab = Window:NewTab("Characters")
 local Section = Tab:NewSection("Witches")
