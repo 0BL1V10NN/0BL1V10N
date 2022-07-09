@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Crossover Legends GUI Made By 0BL1V10N", "LightTheme")
+local Window = Library.CreateLib("Crossover Legends GUI Made By 0BL1V10N", " Serpent")
 
 -- Characters
 local Tab = Window:NewTab("Characters")
