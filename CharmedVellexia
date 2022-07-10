@@ -447,6 +447,34 @@ game:GetService("ReplicatedStorage").Witches.GoodWitches.Vivian.PowerEvents.Vivi
 
 end)
 
+Section:NewButton("Area Molecular Immobilization", "Freeze", function()
+    local A_1 = "aoeimmobilization"
+    local A_2 = "aoeimmobilizationa"
+    local A_3 = "aoeimmobilizationn"
+    local A_4 = "aoeimmobilizationnn"
+    local Event = game:GetService("ReplicatedStorage").Witches.GoodWitches.Piper.PowerEvents.PiperEvents
+    Event:FireServer(A_1, A_2, A_3, A_4)
+    
+    end)
+    
+    Section:NewButton("Sound Repulsion", "Sound Shield", function()
+    local A_1 = "repulse"
+    local A_2 = "deflect"
+    local A_3 = game:GetService("Workspace").Terrain
+    local Event = game:GetService("ReplicatedStorage").Witches.GoodWitches.Kareem.PowerEvents.KareemEvents
+    Event:FireServer(A_1, A_2, A_3)
+    
+    end)
+    
+    Section:NewButton("End Sound Repulsion", "End Sound Shield", function()
+    
+    local A_1 = "repulseEnd"
+    local A_2 = game:GetService("Workspace").Terrain
+    local Event = game:GetService("ReplicatedStorage").Witches.GoodWitches.Kareem.PowerEvents.KareemEvents
+    Event:FireServer(A_1, A_2)
+     
+    end)
+    
 local Section = Tab:NewSection("Spell")
 
 Section:NewButton("Restoration Spell", "Cast this spell as anyone", function()
