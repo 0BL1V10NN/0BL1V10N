@@ -451,6 +451,16 @@ Section:NewButton("The Collector", "", function()
     workspace.Teleport41.RemoteFunction:InvokeServer()
 end)
 
+ection:NewButton("Eleven", "", function()
+    local args = {
+        [1] = "Eleven"
+    }
+
+    game:GetService("ReplicatedStorage").ChangePlayerCharacter:FireServer(unpack(args))
+
+    workspace.Teleport42.RemoteFunction:InvokeServer()
+end)
+
 local Tab = Window:NewTab("Powers")
 local Section = Tab:NewSection("Chaotic Wanda Powers")
 
