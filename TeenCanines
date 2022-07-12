@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("SprinX GUI Made By 0BL1V10N", "GrapeTheme")
+local Window = Library.CreateLib("Teen Canines GUI Made By 0BL1V10N", "Synapse")
 
 -- Characters
 local Tab = Window:NewTab("Characters")
