@@ -329,7 +329,8 @@ Section:NewButton("Arm Snap All", "", function()
 
 end)
 
-Section:NewToggle("Leg Snap", "(Keybind 2)", function()
+Section:NewToggle("Leg Snap", "Keybind (4)", function()
+
     local function getPlayer()
         local userInput = game:GetService("UserInputService")
         local cam = workspace.CurrentCamera
@@ -366,7 +367,7 @@ Section:NewToggle("Leg Snap", "(Keybind 2)", function()
     end
 
     game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(key)
-        if key == "2" then
+        if key == "4" then
             local player = getPlayer()
             if player then
 
