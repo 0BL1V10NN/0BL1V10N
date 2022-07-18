@@ -942,7 +942,7 @@ Section:NewToggle("Throw", "Keybind (5)", function()
 
                 local args = {
                     [1] = "playerTK throw",
-                    [2] = Target,
+                    [2] = player.Character,
                     [3] = Vector3.new(864.8198852539062, 104.87445831298828, 787.5748901367188)
                 }
 
