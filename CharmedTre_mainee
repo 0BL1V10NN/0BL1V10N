@@ -2063,6 +2063,36 @@ Section:NewButton("Summon Banshee", "Banshee Summon", function()
     game:GetService("ReplicatedStorage").AbilityRemote:FireServer(unpack(args))
 end)
 
+Section:NewButton("Summon Matthew", "", function()
+
+    local args = {
+        [1] = "Summoning",
+        [2] = "Matthew"
+    }
+
+    game:GetService("ReplicatedStorage").AbilityRemote:FireServer(unpack(args))
+end)
+
+Section:NewButton("Summon Eames", "", function()
+
+    local args = {
+        [1] = "Summoning",
+        [2] = "Eames"
+    }
+
+    game:GetService("ReplicatedStorage").AbilityRemote:FireServer(unpack(args))
+end)
+
+Section:NewButton("Summon Jeremy", "Wendigo Jeremy", function()
+
+    local args = {
+        [1] = "Summoning",
+        [2] = "Jeremy"
+    }
+
+    game:GetService("ReplicatedStorage").AbilityRemote:FireServer(unpack(args))
+end)
+
 local Tab = Window:NewTab("Items")
 local Section = Tab:NewSection("Potions")
 
